@@ -1,0 +1,48 @@
+
+### Listar todas as músicas e ver os IDs
+GET http://localhost:3000/musicas 
+
+
+
+
+
+
+
+
+
+
+
+### Deletar uma música pelo ID
+DELETE http://localhost:3000/musicas/2
+
+
+
+
+### Cadastrar Música: Eu Tenho Você
+POST http://localhost:3000/musicas
+Content-Type: application/json
+
+{
+  "nome": "Eu Tenho Você",
+  "tom_original": "A",
+  "cifra": "[Intro] [A]  [D]  [A]  [D]\n\n[Primeira Parte]\n\n [A]Vou falar o que todos\n    [D/A]Já conseguiam ver\n [F#m7]Mas eu demorei pra perceber\n\n[Pré-Refrão]\n\n           [Bm]Eu estava longe, você estava [A/C#]perto\n            [D]Eu te rejeitei em troca recebi a[D9]feto\n            [Bm]Me senti sozinho, me tornou seu [A/C#]filho\n                  [D]Fez de mim sua morada e eu disse\n        [E]És bem-vindo\n\n[Refrão]\n\n [A]Não me abandonou todas\nAs vezes que eu caí\n [F#m7]Bastou eu falar pra\nVocê me ouvir\n           [Bm]E ficar feliz\n           [D]E ficar feliz\n\n[Pré-Refrão]\n\n           [Bm]Eu estava longe, você estava [A/C#]perto\n            [D]Eu te rejeitei em troca recebi a[D9]feto\n            [Bm]Me senti sozinho, me tornou seu [A/C#]filho\n                  [D]Fez de mim sua morada e eu disse\n        [E]És bem-vindo\n\n[Refrão]\n\n [A]Não me abandonou todas\nAs vezes que eu caí\n [F#m7]Bastou eu falar pra\nVocê me ouvir\n           [Bm]E ficar feliz\n           [D9]E ficar feliz\n [A]Não me abandonou todas\nAs vezes que eu caí\n [F#m7]Bastou eu falar pra\nVocê me ouvir\n           [Bm]E ficar feliz\n           [D]E ficar [E]feliz\n\n[Refrão 2]\n\n       [D]Eu vaguei mundo a fora\n               [A/C#]Mas não encontrei o que tenho agora\n            [Bm]Eu tenho você, [D]eu tenho você\n\n       [D]Eu vaguei mundo a fora\n               [A/C#]Mas não encontrei o que tenho agora\n            [Bm]Eu tenho você, [D]só tenho você\n [E9]Só faltava eu per[D9]ceber\n\n([A/E]  [Bm7]  [A/C#])\n\n[Ponte]\n\n                      [D9]Que eu não tenho nada\nSem o teu amor\n[A]                        [Bm7]Nada mais me importa, só o teu amor\n[A]                  [D9]Me encontrou, sarou minhas feridas\n       [A]E me trouxe de volta\n              [Bm7]De volta pra casa\n                     [A]De volta pros seus braços de amor\n       [D]Eu só tenho você, Espírito [A]Santo\n               [Bm7]Eu só tenho você, [E9]eu só tenho você\n\n[Refrão Final]\n\n       [D]Eu vaguei mundo a fora\n               [A/C#]Mas não encontrei o que tenho agora\n            [Bm]Eu tenho você \"oh papai\"\n            [D]Eu tenho você\n\n       [D]Eu vaguei mundo a fora\n               [A/C#]Mas não encontrei o que tenho agora\n            [Bm]Eu tenho você, [D]só tenho você\n [E9]Só faltava eu per[D9]ceber  [A]  [Bm]\n [E9]Só faltava eu per[D9]ceber"
+}
+### Cadastrar Música 2
+POST http://localhost:3000/musicas
+Content-Type: application/json
+
+{
+  "nome": "O Escudo",
+  "tom_original": "Em",
+  "cifra": "[Em]Por que te aba[Am]tes, ó minha [D]alma?\nE te como[G]ves dentro de [B7]mim?"
+}
+
+### Cadastrar Música 3
+POST http://localhost:3000/musicas
+Content-Type: application/json
+
+{
+  "nome": "Me Atraiu",
+  "tom_original": "G",
+  "cifra": "[G]Teu fogo me a[C]traiu, Teu fogo me a[Em]traiu\nE eu não quero mais sa[D]ir"
+}
